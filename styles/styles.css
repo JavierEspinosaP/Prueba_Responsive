@@ -1,0 +1,71 @@
+
+
+header {
+background-color: cornflowerblue;
+padding: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+ul li {
+    display: inline;
+    padding: 0 5px;
+}
+
+#top {
+    background-color: darkcyan;
+}
+
+section {
+    background-color: gainsboro;
+    padding: 50px;
+}
+
+aside {
+    background-color: lightpink;
+    padding: 50px;
+}
+
+footer {
+    background-color: tan;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 750px) {
+    .inline {
+        display: flex;
+
+    }
+    #idsection {
+        height: 300px;
+        width: 55%;
+        padding: 10px;
+    }
+
+    #idaside {
+        height: 300px;
+        width: 45%;
+        padding: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .inline {
+        display: flex;
+        justify-content: center;
+
+    }
+    #idsection {
+        width: 50%;
+    }
+
+    #idaside {
+        width: 25%;
+    }
+    
+}
